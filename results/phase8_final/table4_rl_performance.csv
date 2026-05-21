@@ -1,0 +1,4 @@
+Policy,Mean Reward,Improvement %
+Rule-based,-2.5031,—
+DQN,-2.3065,+7.8%
+Δ DQN-Rule,0.1966,

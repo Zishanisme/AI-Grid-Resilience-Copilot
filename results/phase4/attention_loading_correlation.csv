@@ -1,0 +1,3 @@
+layer,n_edges,spearman_rho_attention_vs_loading,p_value
+gat_layer_1,64,-0.09554782612899043,0.4526298041811541
+gat_layer_2,64,-0.1110296886561231,0.3824255096418439

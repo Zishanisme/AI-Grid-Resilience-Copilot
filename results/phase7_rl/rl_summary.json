@@ -1,0 +1,13 @@
+{
+  "n_episodes": 600,
+  "dqn_final_avg_reward": -2.3065,
+  "rule_final_avg_reward": -2.5031,
+  "improvement": 0.1966,
+  "action_distribution": {
+    "monitor": 53,
+    "shed_load": 0,
+    "reroute_power": 4,
+    "voltage_support": 2,
+    "isolate_section": 41
+  }
+}

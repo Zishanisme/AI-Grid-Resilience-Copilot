@@ -1,0 +1,5 @@
+{
+  "fault_risk": 0.75,
+  "congestion_risk": 0.7,
+  "voltage_violation": 0.775
+}

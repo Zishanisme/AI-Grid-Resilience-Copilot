@@ -1,0 +1,15 @@
+{
+  "n_total": 500,
+  "n_train": 350,
+  "n_val": 75,
+  "n_test": 75,
+  "tasks": [
+    "fault_risk",
+    "congestion_risk",
+    "voltage_violation"
+  ],
+  "split": "temporal",
+  "load_profile": "controlled semi-stressed renewable-aware 500-step sinusoidal profile with Gaussian noise and stress-scaled demand spikes",
+  "stress_scale": 1.2,
+  "seed": 11
+}

@@ -1,0 +1,34 @@
+Clear
+New Circuit.IEEE33 basekV=12.66 pu=1.0 phases=3 bus1=sourcebus
+
+! Source
+New Vsource.Source bus1=sourcebus phases=3 basekV=12.66 pu=1.0 angle=0
+
+! Line code
+New Linecode.LC1 nphases=3 R1=0.01 X1=0.05 R0=0.03 X0=0.15 C1=3 C0=1
+
+! Lines (simplified radial feeder)
+New Line.L1 bus1=sourcebus bus2=bus1 phases=3 length=1 units=km linecode=LC1
+New Line.L2 bus1=bus1 bus2=bus2 phases=3 length=1 units=km linecode=LC1
+New Line.L3 bus1=bus2 bus2=bus3 phases=3 length=1 units=km linecode=LC1
+New Line.L4 bus1=bus3 bus2=bus4 phases=3 length=1 units=km linecode=LC1
+New Line.L5 bus1=bus4 bus2=bus5 phases=3 length=1 units=km linecode=LC1
+New Line.L6 bus1=bus5 bus2=bus6 phases=3 length=1 units=km linecode=LC1
+New Line.L7 bus1=bus6 bus2=bus7 phases=3 length=1 units=km linecode=LC1
+New Line.L8 bus1=bus7 bus2=bus8 phases=3 length=1 units=km linecode=LC1
+New Line.L9 bus1=bus8 bus2=bus9 phases=3 length=1 units=km linecode=LC1
+New Line.L10 bus1=bus9 bus2=bus10 phases=3 length=1 units=km linecode=LC1
+
+! Loads
+New Load.Load1 bus1=bus1 phases=3 kV=12.66 kW=100 kvar=60
+New Load.Load2 bus1=bus2 phases=3 kV=12.66 kW=90 kvar=40
+New Load.Load3 bus1=bus3 phases=3 kV=12.66 kW=120 kvar=80
+New Load.Load4 bus1=bus4 phases=3 kV=12.66 kW=60 kvar=30
+New Load.Load5 bus1=bus5 phases=3 kV=12.66 kW=80 kvar=50
+New Load.Load6 bus1=bus6 phases=3 kV=12.66 kW=70 kvar=40
+New Load.Load7 bus1=bus7 phases=3 kV=12.66 kW=110 kvar=60
+New Load.Load8 bus1=bus8 phases=3 kV=12.66 kW=90 kvar=50
+New Load.Load9 bus1=bus9 phases=3 kV=12.66 kW=50 kvar=30
+New Load.Load10 bus1=bus10 phases=3 kV=12.66 kW=60 kvar=35
+
+Solve

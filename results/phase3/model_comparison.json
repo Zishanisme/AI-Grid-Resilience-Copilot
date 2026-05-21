@@ -1,0 +1,29 @@
+{
+  "resiligraph_stgat": {
+    "fault_risk_threshold": 0.55,
+    "fault_risk_f1": 0.9013,
+    "fault_risk_precision": 0.9596,
+    "fault_risk_recall": 0.8497,
+    "fault_risk_auc": 0.9708,
+    "fault_risk_auprc": 0.9592,
+    "congestion_risk_threshold": 0.75,
+    "congestion_risk_f1": 0.8544,
+    "congestion_risk_precision": 0.8889,
+    "congestion_risk_recall": 0.8224,
+    "congestion_risk_auc": 0.9947,
+    "congestion_risk_auprc": 0.9269,
+    "voltage_violation_threshold": 0.5,
+    "voltage_violation_f1": 0.9259,
+    "voltage_violation_precision": 0.9557,
+    "voltage_violation_recall": 0.8979,
+    "voltage_violation_auc": 0.9905,
+    "voltage_violation_auprc": 0.9777,
+    "macro_f1": 0.8939,
+    "macro_precision": 0.9347,
+    "macro_recall": 0.8567,
+    "macro_auc": 0.9854,
+    "macro_auprc": 0.9546,
+    "n_params": 97429,
+    "seed": 33
+  }
+}

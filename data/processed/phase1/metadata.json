@@ -1,0 +1,18 @@
+{
+  "circuit_name": "ieee33",
+  "converged": true,
+  "n_buses": 33,
+  "n_lines": 32,
+  "n_transformers": 0,
+  "total_p_kw": 3618.8113624017146,
+  "total_q_kvar": 2319.77446895762,
+  "total_loss_kw": 38.862470038110104,
+  "loss_pct": 1.0739015147868347,
+  "elapsed_s": 5.269050598144531e-05,
+  "nx_nodes": 33,
+  "nx_edges": 64,
+  "pyg_nodes": 33,
+  "pyg_edges": 64,
+  "node_feat_dim": 1,
+  "edge_feat_dim": 4
+}

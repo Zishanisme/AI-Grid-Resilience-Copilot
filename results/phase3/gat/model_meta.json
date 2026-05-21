@@ -1,0 +1,5 @@
+{
+  "in_dim": 9,
+  "hidden_dim": 64,
+  "heads": 4
+}

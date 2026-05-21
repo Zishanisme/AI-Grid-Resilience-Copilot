@@ -1,0 +1,6 @@
+Metric,Value
+Peak risk before RL mitigation,0.95
+Peak risk after RL mitigation,0.6688458960768129
+Average risk before RL mitigation,0.13961462926510634
+Average risk after RL mitigation,0.12463977177523029
+Risk reduction %,10.725851272677978

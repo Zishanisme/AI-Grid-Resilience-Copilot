@@ -1,0 +1,5 @@
+timestep,bus,risk_type,fault_prob,congestion_prob,voltage_prob,recommended_action,explanation
+41.0,31.0,fault,0.5223462581634521,0.5190784931182861,0.5063351988792419,isolate_fault_or_dispatch_crew,Fault probability is highest; isolate the affected section and dispatch inspection.
+51.0,32.0,congestion,0.5460786819458008,0.5743415951728821,0.5118831992149353,network_reconfiguration_or_reroute,Congestion probability is highest; reroute power flow or reconfigure feeder switches.
+24.0,0.0,voltage,0.5041459202766418,0.5087717771530151,0.5107479691505432,voltage_regulation_or_reactive_support,Voltage risk is highest; use voltage regulation or reactive power support.
+65.0,3.0,normal,0.4817128777503967,0.4793892502784729,0.4954378008842468,monitor,All predicted risks are below the operator action threshold.

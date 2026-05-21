@@ -1,0 +1,114 @@
+{
+  "model": "resiligraph_stgat",
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "runs": [
+    {
+      "fault_risk_threshold": 0.475,
+      "fault_risk_f1": 0.1366459627329192,
+      "fault_risk_precision": 0.1089108910891089,
+      "fault_risk_recall": 0.1833333333333333,
+      "fault_risk_auc": 0.706217375093214,
+      "fault_risk_auprc": 0.0791412556220636,
+      "congestion_risk_threshold": 0.7999999999999999,
+      "congestion_risk_f1": 0.9807692307692308,
+      "congestion_risk_precision": 0.9714285714285714,
+      "congestion_risk_recall": 0.9902912621359224,
+      "congestion_risk_auc": 0.9999276712938492,
+      "congestion_risk_auprc": 0.9987933281476123,
+      "voltage_violation_threshold": 0.7999999999999999,
+      "voltage_violation_f1": 0.7704918032786885,
+      "voltage_violation_precision": 0.8245614035087719,
+      "voltage_violation_recall": 0.7230769230769231,
+      "voltage_violation_auc": 0.9737619772544104,
+      "voltage_violation_auprc": 0.8088598654877796,
+      "macro_f1": 0.6293023322602794,
+      "macro_precision": 0.6349669553421508,
+      "macro_recall": 0.6322338395153929,
+      "macro_auc": 0.8933023412138246,
+      "macro_auprc": 0.6289314830858186,
+      "seed": 11
+    },
+    {
+      "fault_risk_threshold": 0.4499999999999999,
+      "fault_risk_f1": 0.1312741312741312,
+      "fault_risk_precision": 0.0854271356783919,
+      "fault_risk_recall": 0.2833333333333333,
+      "fault_risk_auc": 0.6993941088739747,
+      "fault_risk_auprc": 0.0847708859603319,
+      "congestion_risk_threshold": 0.6,
+      "congestion_risk_f1": 0.9615384615384616,
+      "congestion_risk_precision": 0.9523809523809524,
+      "congestion_risk_recall": 0.970873786407767,
+      "congestion_risk_auc": 0.99976075889504,
+      "congestion_risk_auprc": 0.9960747941484596,
+      "voltage_violation_threshold": 0.75,
+      "voltage_violation_f1": 0.7642276422764228,
+      "voltage_violation_precision": 0.8103448275862069,
+      "voltage_violation_recall": 0.7230769230769231,
+      "voltage_violation_auc": 0.9776349959702696,
+      "voltage_violation_auprc": 0.823253846759398,
+      "macro_f1": 0.6190134116963386,
+      "macro_precision": 0.6160509718818504,
+      "macro_recall": 0.6590946809393411,
+      "macro_auc": 0.8922632879130946,
+      "macro_auprc": 0.6346998422893965,
+      "seed": 22
+    },
+    {
+      "fault_risk_threshold": 0.4249999999999999,
+      "fault_risk_f1": 0.1139896373056994,
+      "fault_risk_precision": 0.0674846625766871,
+      "fault_risk_recall": 0.3666666666666666,
+      "fault_risk_auc": 0.7073452647278151,
+      "fault_risk_auprc": 0.0753760721966012,
+      "congestion_risk_threshold": 0.6,
+      "congestion_risk_f1": 0.958139534883721,
+      "congestion_risk_precision": 0.9196428571428572,
+      "congestion_risk_recall": 1.0,
+      "congestion_risk_auc": 0.9999276712938492,
+      "congestion_risk_auprc": 0.9988387199738126,
+      "voltage_violation_threshold": 0.675,
+      "voltage_violation_f1": 0.7447698744769874,
+      "voltage_violation_precision": 0.8165137614678899,
+      "voltage_violation_recall": 0.6846153846153846,
+      "voltage_violation_auc": 0.9789737619772544,
+      "voltage_violation_auprc": 0.8311175875271352,
+      "macro_f1": 0.6056330155554693,
+      "macro_precision": 0.6012137603958113,
+      "macro_recall": 0.6837606837606837,
+      "macro_auc": 0.8954155659996396,
+      "macro_auprc": 0.6351107932325163,
+      "seed": 33
+    }
+  ],
+  "summary": {
+    "macro_f1": {
+      "mean": 0.618,
+      "std": 0.0119,
+      "min": 0.6056,
+      "max": 0.6293
+    },
+    "macro_auc": {
+      "mean": 0.8937,
+      "std": 0.0016,
+      "min": 0.8923,
+      "max": 0.8954
+    },
+    "macro_auprc": {
+      "mean": 0.6329,
+      "std": 0.0035,
+      "min": 0.6289,
+      "max": 0.6351
+    },
+    "macro_recall": {
+      "mean": 0.6584,
+      "std": 0.0258,
+      "min": 0.6322,
+      "max": 0.6838
+    }
+  }
+}

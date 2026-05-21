@@ -1,0 +1,26 @@
+[
+  {
+    "Configuration": "Without renewable feature channels",
+    "Fault AUC": 0.7628181641149548,
+    "Congestion AUC": 0.9439000607917372,
+    "Voltage AUC": 0.6821241475011295,
+    "Mean AUC": 0.7962807908026072,
+    "Fault F1": 0.5919220055710307,
+    "Congestion F1": 0.7649402390438247,
+    "Voltage F1": 0.21745788667687596,
+    "Mean F1": 0.5247733770972438,
+    "Mean AUPRC": 0.5894544426645184
+  },
+  {
+    "Configuration": "With solar/net-load feature channels",
+    "Fault AUC": 0.8226319563718654,
+    "Congestion AUC": 0.9285673012681999,
+    "Voltage AUC": 0.8984813687313096,
+    "Mean AUC": 0.883226875457125,
+    "Fault F1": 0.7032723239046035,
+    "Congestion F1": 0.7762162162162162,
+    "Voltage F1": 0.6861924686192469,
+    "Mean F1": 0.7218936695800222,
+    "Mean AUPRC": 0.6903323845273963
+  }
+]
